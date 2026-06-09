@@ -1,3 +1,27 @@
 # RSLEIHE
 
-Initial commit
+A Next.js 15 project configured with TypeScript and Tailwind CSS.
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Available Scripts
+
+- `npm run dev` starts the local development server.
+- `npm run build` creates a production build.
+- `npm run start` starts the production server.
+- `npm run lint` runs Next.js linting.
+- `npm run typecheck` runs TypeScript without emitting files.

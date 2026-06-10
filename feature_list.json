@@ -1,0 +1,56 @@
+
+{
+  "project_name": "Tomorrows-Leaders-Sandbox",
+  "version": "1.0.0-prototype",
+  "features": [
+    {
+      "id": "FEAT-001",
+      "module": "Authentication",
+      "title": "PolyU SSO Mock Login",
+      "priority": "P0",
+      "description": "Allows students to input Name, Student ID, and Group Name, generating a secure session linked to their group."
+    },
+    {
+      "id": "FEAT-002",
+      "module": "Sandbox",
+      "title": "Gamified Character Assignment",
+      "priority": "P1",
+      "description": "A 4-question onboarding quiz mapping students to 4 fantasy roles (Magician, Knight, etc.) based on leadership traits."
+    },
+    {
+      "id": "FEAT-003",
+      "module": "Chat",
+      "title": "Real-time Multi-user Chat",
+      "priority": "P0",
+      "description": "Enables 5-6 students in the same group to exchange text messages in real-time via Supabase WebSockets."
+    },
+    {
+      "id": "FEAT-004",
+      "module": "AI-Agent",
+      "title": "@Betty AI Tutor Integration",
+      "priority": "P0",
+      "description": "Intercepts messages containing '@Betty', triggering Gemini API to reply with specialized mentoring context."
+    },
+    {
+      "id": "FEAT-005",
+      "module": "Analytics",
+      "title": "Telemetry & Student Tracking Metrics",
+      "priority": "P0",
+      "description": "Tracks word count, message frequency, last active timestamp, and AI triggers per user ID into DB logs."
+    },
+    {
+      "id": "FEAT-006",
+      "module": "Dashboard",
+      "title": "Teacher Analytics View",
+      "priority": "P1",
+      "description": "A secure portal displaying bar charts of participation, chat logs, and an automated AI summary of group alignment."
+    },
+    {
+      "id": "FEAT-007",
+      "module": "Rehearsal",
+      "title": "Audio Speech Evaluator",
+      "priority": "P2",
+      "description": "Records student audio presentation pitches and utilizes LLM evaluation for immediate individual feedback."
+    }
+  ]
+}
